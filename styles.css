@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-
+  z-index: 2;
   position:fixed;
   top:0;
   left:0;
@@ -90,10 +90,19 @@ nav li a:hover {
   scale: 0.6;
   border-radius:5%;
   transition:scale 0.6s ease;
+  z-index:1;
 }
 
 .me:hover {
   scale: 0.7;
+}
+
+#project-section {
+  height:1080px;
+  width:auto;
+  background-color:#333333;
+  top:0;
+  left:0;
 }
 
 
